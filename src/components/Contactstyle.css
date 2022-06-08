@@ -1,0 +1,58 @@
+.contact-name, .contact-mail, .contact-num, .trash-icon {
+    color: #fff;
+}
+
+.main-contactlist {
+    display: flex;
+    padding: 2rem;
+    width: 50%;
+    height: 3.5rem;
+    margin-bottom: 0.5rem;
+    border-style: outset;
+    padding-top: 2px;
+    border-style: outset;
+    border-block-color: #1e1e1f;
+    background-color: #1e1e1f;
+}
+
+.contact-mail {
+    overflow-wrap: anywhere;    
+}
+.content-contact {
+    height: 5rem;
+    width: 50%;
+    margin-left: 20px;
+    /* overflow: hidden; */
+}
+
+.trash-icon {
+    padding-top: 22px;
+    margin-left: 20rem;
+}
+
+.contact-contaainer {
+    padding: 2rem;
+}
+
+.user-icon {
+    color: #fff;
+}
+
+.user-avatar {
+    height: 5em;
+    width: 2.4em;
+    margin-top: -1rem;
+}
+
+@media screen and (max-width: 600px) {
+    .main-contactlist {
+        
+        width: 100%;
+        height: 2.5rem;
+       
+    }
+    .trash-icon {
+        padding-top: 22px;
+        margin-left: 10rem;
+    }
+}
